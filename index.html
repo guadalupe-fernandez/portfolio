@@ -15,16 +15,13 @@
 <style>
 /* Layout: grey ground, black ink, light Inter; only the hero line is typed on an old typewriter. Projects as an index with a small reference image. */
 :root{
+  color-scheme:light;
   --bg:#F2F2EF; --paper:#FFFFFF; --hover:#E9E9E5; --ink:#111111; --muted:#545452; --faint:#767673; --line:#DCDCD8; --accent:#4434E6; --accent-soft:#DCD8FF; --card:#FFFFFF; --tape:rgba(17,17,17,.07); --cloud:#D6D6D3; --paper-ill:#FAFAF8;
   --type:"Special Elite", "Courier Prime", "Courier New", monospace;
   --mono:"Inter", system-ui, sans-serif;
   --body:"Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   --wrap:1120px;
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#171717; --paper:#1F1F1F; --ink:#ECECEA; --muted:#A3A3A0; --faint:#77777A; --line:#333333; --accent:#A79FFF; --accent-soft:#34306A; --card:#242423; --hover:#2E2E2D; --tape:rgba(255,255,255,.18); --cloud:#2A2A2A; --paper-ill:#232323; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#171717; --paper:#1F1F1F; --ink:#ECECEA; --muted:#A3A3A0; --faint:#77777A; --line:#333333; --accent:#A79FFF; --accent-soft:#34306A; --card:#242423; --hover:#2E2E2D; --tape:rgba(255,255,255,.18); --cloud:#2A2A2A; --paper-ill:#232323; color-scheme:dark}
 
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:80px}
@@ -195,7 +192,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     <h1 class="typed" id="typed" aria-label="Diseño las palabras que hacen que un producto se entienda."><span class="sizer" aria-hidden="true">Diseño las palabras que hacen que un producto se entienda.</span><span class="out" aria-hidden="true" id="out">Diseño las palabras que hacen que un producto se entienda.<span class="caret"></span></span></h1>
     <p class="lede">Soy Guadalupe Fernández, especialista en UX con más de 7 años en productos digitales de <b>ueno bank</b>, <b>Mercado Libre</b> y <b>Prisma Medios de Pago</b>. Combino investigación, datos y liderazgo de equipos para que cada producto sea claro y fácil de usar.</p>
     <div class="actions">
-      <a class="btn solid" href="#proyectos">Ver proyectos
+      <a class="btn solid" href="#proyectos">Mostrar proyectos
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg></a>
       <a class="btn" href="https://www.linkedin.com/in/maguadafernandez/" target="_blank" rel="noopener">LinkedIn</a>
     </div>
@@ -224,7 +221,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
           <h3>Skill de Content en GAL</h3>
           <p class="sum">Convertimos nuestra guía de escritura y nuestro glosario en reglas que la IA de diseño del grupo puede seguir en Figma.</p>
           <p class="kpi"><b>+300 términos</b> y una guía de 47 páginas, listos para la IA</p>
-          <span class="more">Ver caso <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+          <span class="more">Mostrar caso <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
         </div>
       </a>
       <a class="card" href="centro-de-ayuda.html" style="--r:-1.2deg">
@@ -235,7 +232,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
           <h3>Centro de ayuda</h3>
           <p class="sum">Reorganizamos el centro de ayuda de un banco digital, usado por más de 3 millones de personas, para que cada respuesta sea fácil de encontrar, clara y accesible.</p>
           <p class="kpi"><b>+600 FAQs</b> ordenadas en 23 categorías</p>
-          <span class="more">Ver caso <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+          <span class="more">Mostrar caso <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
         </div>
       </a>
       <a class="card" href="pairing-ideal.html" style="--r:1deg">
@@ -246,7 +243,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
           <h3>Pairing Ideal</h3>
           <p class="sum">Rediseñamos cómo las personas usuarias conectan su Point al celular, con menos pasos y mensajes más claros en cuatro países.</p>
           <p class="kpi">De 10 a <b>4 taps</b> para conectar el lector</p>
-          <span class="more">Ver caso <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+          <span class="more">Mostrar caso <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
         </div>
       </a>
       <a class="card" href="lectores-deprecados.html" style="--r:-.6deg">
@@ -257,7 +254,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
           <h3>Lectores deprecados</h3>
           <p class="sum">Acompañamos a miles de personas usuarias a cambiar su lector antes de que dejara de funcionar, sin que dejaran de cobrar.</p>
           <p class="kpi"><b>+271% en compras</b> del lector nuevo en Argentina en la primera semana</p>
-          <span class="more">Ver caso <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+          <span class="more">Mostrar caso <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
         </div>
       </a>
     </div>
